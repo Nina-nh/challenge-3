@@ -1,0 +1,96 @@
+/* Font*/
+
+@font-face {
+font-family: 'Apercu';    
+src: url("assets/BebasNeue-Regular.ttf");
+font-weight: 500;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url("assets/BebasNeue-Regular.ttf");
+font-weight: normal;
+font-style: normal;    
+}
+
+@font-face {
+font-family: 'Apercu';
+src: url("assets/BebasNeue-Regular.ttf");
+font-weight: 300;
+font-style:  normal;
+}
+
+
+body{
+    font-family: 'Apercu';
+    font-size: 15px;
+}
+
+.first-page {
+    background-image: url("assets/main-bg.jpg"), linear-gradient(#eb01a5, #d13531);
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.second-page {
+    background-image: url("assets/the-game-bg.jpg");
+    background-image: url("assets/the-game-bg.jpg"), -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 59%, rgba(0, 0, 0, 0.65) 100%);
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 20px;
+}
+
+.third-page {
+    background-image: url("assets/features.jpg");
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fourth-page {
+    background-image: url("assets/requirements.png");
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.fifth-page {
+    background-image: url("assets/top-score-bg.png");
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sixth-page {
+    background-color:black;
+    ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.all-page {
+    height: 2000px;
+    background-color: black;
+}
+
+.custom-navbar {
+    height: 80px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 15px;
+}
+
+.logo {
+    font-size: xx-large;
+    color: white;
+}
+
+.menu-item {
+    color: white;
+}
